@@ -1,0 +1,18 @@
+.container{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container__unorderedList{
+    display: flex;
+    list-style-type: none;
+    width: 20%;
+    justify-content: space-between;
+}
+.container__unorderedList li  a{
+    padding: 10px;
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
